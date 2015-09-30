@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		948883271BBC3196007109D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948883261BBC3196007109D3 /* AppDelegate.swift */; };
-		948883291BBC3196007109D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948883281BBC3196007109D3 /* ViewController.swift */; };
 		9488832C1BBC3196007109D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9488832A1BBC3196007109D3 /* Main.storyboard */; };
 		9488832E1BBC3196007109D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9488832D1BBC3196007109D3 /* Assets.xcassets */; };
 		948883311BBC3196007109D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9488832F1BBC3196007109D3 /* LaunchScreen.storyboard */; };
+		948883391BBC32A9007109D3 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 948883381BBC32A9007109D3 /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9488833B1BBC32CE007109D3 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488833A1BBC32CE007109D3 /* DetailsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		9488833D1BBC3821007109D3 /* NewsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9488833C1BBC3821007109D3 /* NewsItem.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		948883231BBC3196007109D3 /* Json.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Json.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		948883261BBC3196007109D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		948883281BBC3196007109D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9488832B1BBC3196007109D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9488832D1BBC3196007109D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		948883301BBC3196007109D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		948883321BBC3196007109D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		948883381BBC32A9007109D3 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		9488833A1BBC32CE007109D3 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		9488833C1BBC3821007109D3 /* NewsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				948883261BBC3196007109D3 /* AppDelegate.swift */,
-				948883281BBC3196007109D3 /* ViewController.swift */,
 				9488832A1BBC3196007109D3 /* Main.storyboard */,
+				9488833C1BBC3821007109D3 /* NewsItem.swift */,
 				9488832D1BBC3196007109D3 /* Assets.xcassets */,
 				9488832F1BBC3196007109D3 /* LaunchScreen.storyboard */,
 				948883321BBC3196007109D3 /* Info.plist */,
+				948883381BBC32A9007109D3 /* TableViewController.swift */,
+				9488833A1BBC32CE007109D3 /* DetailsViewController.swift */,
 			);
 			path = Json;
 			sourceTree = "<group>";
@@ -134,8 +140,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				948883291BBC3196007109D3 /* ViewController.swift in Sources */,
 				948883271BBC3196007109D3 /* AppDelegate.swift in Sources */,
+				9488833D1BBC3821007109D3 /* NewsItem.swift in Sources */,
+				948883391BBC32A9007109D3 /* TableViewController.swift in Sources */,
+				9488833B1BBC32CE007109D3 /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
