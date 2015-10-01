@@ -20,9 +20,9 @@ class TableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
     }
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        var selectedRow = self.tableView.indexPathForSelectedRow
-        var selectedNewsItem = self.newsItems[selectedRow!.row]
-        var controller = segue.destinationViewController as! DetailsViewController
+        let selectedRow = self.tableView.indexPathForSelectedRow
+        let selectedNewsItem = self.newsItems[selectedRow!.row]
+        let controller = segue.destinationViewController as! DetailsViewController
         controller.SelectedNewsItem = selectedNewsItem
     }
     override func didReceiveMemoryWarning() {
